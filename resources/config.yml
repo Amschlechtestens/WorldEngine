@@ -1,0 +1,25 @@
+# TerrainCreator Plugin Configuration
+
+# Plugin-Einstellungen
+plugin:
+  # Aktiviere Debug-Modus für detaillierte Logs
+  debug: false
+  
+  # Sprache (aktuell nur Deutsch unterstützt)
+  language: de
+
+# Standard-Einstellungen für neue Generatoren
+defaults:
+  baseHeight: 64
+  waterLevel: 62
+  dirtDepth: 4
+  generateCaves: true
+  generateBedrock: true
+  
+  mainNoise:
+    type: Perlin
+    amplitude: 32
+    frequency: 0.02
+    octaves: 4
+    persistence: 0.5
+    lacunarity: 2.0

@@ -1,0 +1,14 @@
+name: TerrainCreator
+main: TerrainCreator\Main
+version: 1.0.0
+api: 5.0.0
+
+commands:
+  terraincreator:
+    description: Open the Terrain Creator menu
+    permission: terraincreator.use
+
+permissions:
+  terraincreator.use:
+    description: Allows using the Terrain Creator
+    default: op
