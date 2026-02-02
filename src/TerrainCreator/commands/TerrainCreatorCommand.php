@@ -18,8 +18,7 @@ class TerrainCreatorCommand extends Command {
         parent::__construct(
             "terraincreator",
             "Open the Terrain Creator menu",
-            "/terraincreator",
-            ["tc", "terraingen"]
+            "/terraincreator"
         );
         $this->setPermission("terraincreator.use");
         $this->plugin = $plugin;
